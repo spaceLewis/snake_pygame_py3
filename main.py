@@ -40,7 +40,7 @@ class Snake(object):
         self.corps = BLEUC
         self.tete = BLEUF
         self.serpent = [{'rect':pygame.Rect(LARGEUR/2, HAUTEUR/2,
-                COTE, COTE), 'color':self.tete, 'dire':0}}]
+                COTE, COTE), 'color':self.tete, 'dire':0}]
         self.score = 0
     def addblock(self, n):
         # ajoute n carrés à droite de la queue du serpent
